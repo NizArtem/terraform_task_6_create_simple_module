@@ -14,13 +14,14 @@ This Terraform module creates:
 
 ```hcl
 module "resource_group_storage" {
-  source  = "NizArtem/resource_group_storage/azurerm"
+  source  = "MateNizArtem/resource_group_storage/azurerm"
   version = "1.0.0"
 
   resource_group_name  = "example-rg"
   storage_account_name = "examplestorage123"
   location             = "West Europe"
 }
+```
 
 
 Inputs
